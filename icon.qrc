@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/打卡签到.png</file>
+        <file>icon/订单.png</file>
+        <file>icon/订单查询.png</file>
+        <file>icon/美食.png</file>
+        <file>icon/保密.png</file>
+        <file>icon/登录.png</file>
+        <file>icon/删除.png</file>
+        <file>icon/商城-幸福餐桌.png</file>
+        <file>icon/评价.png</file>
+        <file>icon/积分兑换.png</file>
+        <file>icon/积分.png</file>
+        <file>icon/上传.png</file>
+        <file>icon/关闭.png</file>
+    </qresource>
+</RCC>

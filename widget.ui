@@ -1,0 +1,2470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1081</width>
+    <height>687</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget_main">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>1061</width>
+     <height>621</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="menu">
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>20</y>
+       <width>501</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>幼圆</family>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>请选择你的身份</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_4">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>120</y>
+       <width>1001</width>
+       <height>471</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255,150);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="but_waiter">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>380</y>
+        <width>300</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>300</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Light</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>WAITER</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="but_boss">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>380</y>
+        <width>300</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>300</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Light</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>BOSS</string>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_3">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>50</y>
+        <width>300</width>
+        <height>300</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>300</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>300</width>
+        <height>300</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/mainwindowpic/头像_中-男-中.png);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_2">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>50</y>
+        <width>300</width>
+        <height>300</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>300</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>300</width>
+        <height>300</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/mainwindowpic/头像_中-女-中.png);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>300</width>
+        <height>300</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>300</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>300</width>
+        <height>300</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/mainwindowpic/头像_中-男-老.png);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="but_guest">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>380</y>
+        <width>300</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>300</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Light</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>GUEST</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <zorder>frame_4</zorder>
+    <zorder>label_3</zorder>
+   </widget>
+   <widget class="QWidget" name="page_choosetable">
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>50</y>
+       <width>271</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>请选择您的餐桌</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="but_esc_choosetable">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>112</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>1100</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>ESC</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>140</y>
+       <width>821</width>
+       <height>480</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QFrame" name="frame_6">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/icon/商城-幸福餐桌.png);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QFrame" name="frame_7">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/icon/商城-幸福餐桌.png);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QFrame" name="frame_8">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/icon/商城-幸福餐桌.png);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="but_table1">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>80</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>80</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="but_table2">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>80</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>80</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="but_table3">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>80</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>80</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QFrame" name="frame_9">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/icon/商城-幸福餐桌.png);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QFrame" name="frame_10">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/icon/商城-幸福餐桌.png);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QFrame" name="frame_11">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/icon/商城-幸福餐桌.png);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="but_table4">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>80</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>80</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QPushButton" name="but_table5">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>80</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>80</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QPushButton" name="but_table6">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>80</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>80</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QFrame" name="frame_14">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>120</y>
+       <width>901</width>
+       <height>511</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255,150);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <zorder>frame_14</zorder>
+    <zorder>label_9</zorder>
+    <zorder>but_esc_choosetable</zorder>
+    <zorder>layoutWidget</zorder>
+   </widget>
+   <widget class="QWidget" name="page_waiterserve">
+    <widget class="QPushButton" name="but_esc_p4">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>40</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>ESC</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="waiterRecordTab">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>30</y>
+       <width>601</width>
+       <height>601</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(189, 217, 242,200);</string>
+     </property>
+     <column>
+      <property name="text">
+       <string>菜名</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>类别</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>价格</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>桌号</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="but_serve">
+     <property name="geometry">
+      <rect>
+       <x>870</x>
+       <y>390</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/icon/美食.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>870</x>
+       <y>490</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>已上菜</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_bosscheck">
+    <widget class="QPushButton" name="but_esc_p5">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>40</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>ESC</string>
+     </property>
+    </widget>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>50</y>
+       <width>771</width>
+       <height>601</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <attribute name="title">
+       <string/>
+      </attribute>
+      <widget class="QTableWidget" name="bossRecordTab">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>41</y>
+         <width>661</width>
+         <height>371</height>
+        </rect>
+       </property>
+       <column>
+        <property name="text">
+         <string>菜名</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>类别</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>价格</string>
+        </property>
+       </column>
+      </widget>
+      <widget class="QPushButton" name="but_caculateTol">
+       <property name="geometry">
+        <rect>
+         <x>580</x>
+         <y>430</y>
+         <width>80</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>80</width>
+         <height>80</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>80</width>
+         <height>80</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/icon/积分.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>520</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线 Light</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>计算销售总额</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string/>
+      </attribute>
+      <widget class="QLabel" name="label_guestreview">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>90</y>
+         <width>691</width>
+         <height>391</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_17">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>30</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线 Light</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>收到的评价：</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_guest">
+    <widget class="QPushButton" name="but_esc_p3">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>20</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>ESC</string>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="menuListWidget">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>70</y>
+       <width>621</width>
+       <height>571</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>160</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>顾客评价</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>320</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>查看订单</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>480</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>加入订单</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>90</y>
+       <width>102</width>
+       <height>498</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="but_guestreview">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/icon/评价.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="but_checkorder">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/icon/订单查询.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="but_order">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/icon/订单.png);
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_checkorder">
+    <widget class="QPushButton" name="but_esc_p6">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>50</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>ESC</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="orderRecordTab">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>40</y>
+       <width>461</width>
+       <height>581</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(189, 217, 242,200);</string>
+     </property>
+     <column>
+      <property name="text">
+       <string>菜名</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>类别</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>价格</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QLabel" name="label_total">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>580</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>860</x>
+       <y>190</y>
+       <width>133</width>
+       <height>393</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <item>
+       <spacer name="verticalSpacer_16">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>128</width>
+          <height>13</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radiobut_ta1">
+        <property name="font">
+         <font>
+          <family>等线 Light</family>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>一号桌</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_15">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>128</width>
+          <height>13</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radiobut_ta2">
+        <property name="font">
+         <font>
+          <family>等线 Light</family>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>二号桌</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_14">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>128</width>
+          <height>13</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radiobut_ta3">
+        <property name="font">
+         <font>
+          <family>等线 Light</family>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>三号桌</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_13">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>128</width>
+          <height>13</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radiobut_ta4">
+        <property name="font">
+         <font>
+          <family>等线 Light</family>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>四号桌</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_17">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>128</width>
+          <height>13</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radiobut_ta5">
+        <property name="font">
+         <font>
+          <family>等线 Light</family>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>五号桌</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_18">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>128</width>
+          <height>13</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radiobut_ta6">
+        <property name="font">
+         <font>
+          <family>等线 Light</family>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>六号桌</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_19">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>128</width>
+          <height>13</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>330</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>删除订单</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>480</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>点击结算</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="but_delorder">
+     <property name="geometry">
+      <rect>
+       <x>271</x>
+       <y>306</y>
+       <width>80</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/icon/删除.png);
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="but_settle">
+     <property name="geometry">
+      <rect>
+       <x>271</x>
+       <y>458</y>
+       <width>80</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+       <horstretch>200</horstretch>
+       <verstretch>200</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/icon/打卡签到.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_review">
+    <widget class="QPushButton" name="but_esc_guestreview">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>ESC</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>150</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>您的评价：</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="but_summit">
+     <property name="geometry">
+      <rect>
+       <x>830</x>
+       <y>370</y>
+       <width>80</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/icon/上传.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>460</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>提交我的评价</string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="plainTextEdit">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>200</y>
+       <width>571</width>
+       <height>161</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_13">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>371</width>
+       <height>391</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/mainwindowpic/Messages 6.png);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_login">
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <widget class="QFrame" name="frame_15">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>50</y>
+       <width>641</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255,100);
+border-radius:10px;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="but_changepassw1">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>370</y>
+        <width>300</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>300</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>等线 Light</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>修改密码</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_5">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>220</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/icon/保密.png);
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="edit_waiterPassword">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>230</y>
+       <width>193</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="but_login">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>260</y>
+       <width>80</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/icon/登录.png);
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>350</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>点击登录</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>130</y>
+       <width>308</width>
+       <height>46</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>请输入访问密码</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <zorder>frame_15</zorder>
+    <zorder>frame_5</zorder>
+    <zorder>edit_waiterPassword</zorder>
+    <zorder>label_6</zorder>
+    <zorder>label_7</zorder>
+    <zorder>but_login</zorder>
+   </widget>
+   <widget class="QWidget" name="page_login2">
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <widget class="QFrame" name="frame_17">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>60</y>
+       <width>541</width>
+       <height>381</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255,100);
+border-radius:10px;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="but_changepassw2">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>310</y>
+        <width>300</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>300</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>等线 Light</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>修改密码</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>90</y>
+       <width>308</width>
+       <height>46</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>请输入访问密码</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>280</y>
+       <width>131</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>点击登录</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="but_login2">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>200</y>
+       <width>80</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/icon/登录.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="edit_bossPassword">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>170</y>
+       <width>193</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_12">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>160</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/icon/保密.png);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <zorder>label_10</zorder>
+    <zorder>label_11</zorder>
+    <zorder>frame_17</zorder>
+    <zorder>but_login2</zorder>
+    <zorder>edit_bossPassword</zorder>
+    <zorder>frame_12</zorder>
+   </widget>
+   <widget class="QWidget" name="page_changepw1">
+    <widget class="QLineEdit" name="originalpw1">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>170</y>
+       <width>261</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="newpw1">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>240</y>
+       <width>261</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>170</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>原始密码</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_18">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>240</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>新密码</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="but_changepw1">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>330</y>
+       <width>300</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>300</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>确认修改</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_16">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>90</y>
+       <width>601</width>
+       <height>371</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255,100);
+border-radius:10px;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="but_esc_changepw1">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>40</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>ESC</string>
+     </property>
+    </widget>
+    <zorder>frame_16</zorder>
+    <zorder>originalpw1</zorder>
+    <zorder>newpw1</zorder>
+    <zorder>label_16</zorder>
+    <zorder>label_18</zorder>
+    <zorder>but_changepw1</zorder>
+    <zorder>but_esc_changepw1</zorder>
+   </widget>
+   <widget class="QWidget" name="page_changepw2">
+    <widget class="QLabel" name="label_19">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>160</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>原始密码</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_20">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>230</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>新密码</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="originalpw2">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>160</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="newpw2">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>224</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="but_changepw2">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>320</y>
+       <width>300</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>300</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线 Light</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>确认修改</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="but_esc_changepw2">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>60</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Light</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>ESC</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_18">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>100</y>
+       <width>561</width>
+       <height>371</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255,100);
+border-radius:10px;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <zorder>frame_18</zorder>
+    <zorder>label_19</zorder>
+    <zorder>label_20</zorder>
+    <zorder>originalpw2</zorder>
+    <zorder>newpw2</zorder>
+    <zorder>but_changepw2</zorder>
+    <zorder>but_esc_changepw2</zorder>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>10</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/icon/关闭.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

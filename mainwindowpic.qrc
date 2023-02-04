@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>mainwindowpic/头像_外-男-中.png</file>
+        <file>mainwindowpic/头像_中-男-老.png</file>
+        <file>mainwindowpic/头像_中-男-中.png</file>
+        <file>mainwindowpic/头像_中-女-中.png</file>
+        <file>mainwindowpic/提前点餐.png</file>
+        <file>mainwindowpic/Messages 6.png</file>
+        <file>mainwindowpic/approve profile.png</file>
+        <file>mainwindowpic/rest.jpg</file>
+    </qresource>
+</RCC>

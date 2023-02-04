@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>mainwindowicon/店铺.png</file>
+        <file>mainwindowicon/订单.png</file>
+        <file>mainwindowicon/购物.png</file>
+        <file>mainwindowicon/购物车.png</file>
+        <file>mainwindowicon/评价.png</file>
+        <file>mainwindowicon/取消订单.png</file>
+        <file>mainwindowicon/全部.png</file>
+        <file>mainwindowicon/确认订单.png</file>
+        <file>mainwindowicon/我的.png</file>
+        <file>mainwindowicon/消息.png</file>
+    </qresource>
+</RCC>
